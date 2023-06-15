@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+// Body & Head
+.renpl {
+    position: absolute;
+    width: 395px;
+    height: 700px;
+    margin: -90px;
+}
+
+// Third-Eye
+.third-eye-anchor {
+    position: absolute;
+    z-index: 3;
+}
+.third-eye {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: -556px;
+    margin-left: -29px;
+    transition: all 0.1s ease-in-out;
+    &:hover + .third-eye-glow,
+    &:hover,
+    &:focus {
+        transform: scale(1.5);
+        visibility: visible;
+    }
+    
+}
+
+.third-eye-glow {
+    position: absolute;
+    width: 40px;
+    height: 44px;
+    z-index: 4;
+    margin-bottom: -506px;
+    pointer-events: none;
+    visibility: hidden;
+    margin-left: -18px;
+    margin-top: -550px;
+}
+
+// Headphones
+.headphone-anchor {
+    position: absolute;
+    z-index: 2;
+}
+
+.headphones {
+    position: absolute;
+    width: 186px;
+    height: 189px;
+    margin-top: -579px;
+    margin-left: -93px;
+    transition: all 0.1s ease-in-out;
+    &:hover + .headphone-glow,
+    &:hover,
+    &:focus {
+        transform: scale(1.1);
+        visibility: visible;
+    }
+}
+
+.headphone-glow {
+    position: absolute;
+    width: 588px;
+    height: 554px;
+    // transition: all 0.3s ease-in-out;
+    z-index: 1;
+    pointer-events: none;
+    visibility: hidden;
+    margin-left: -275px;
+    margin-top: -746px;
+}
+
+
+
+
+// Beef With God
+.beef {
+    position: absolute;
+    width: 91px;
+    height: 116px;
+    margin-left: 158px;
+    margin-bottom: 209px;
+}
+
+// Leotard
+.leotard-s {
+    position: absolute;
+    width: 96px;
+    height: 116px;
+    margin-left: -10px;
+    margin-bottom: 122px;
+}    
+
