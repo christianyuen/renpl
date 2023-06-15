@@ -284,6 +284,7 @@ body {
   margin-top: -579px;
   margin-left: -93px;
   transition: all 0.1s ease-in-out;
+  z-index: 2;
 }
 .headphones:hover + .headphone-glow, .headphones:hover, .headphones:focus {
   transform: scale(1.1);
@@ -301,18 +302,62 @@ body {
   margin-top: -746px;
 }
 
+.beef-anchor {
+  position: absolute;
+  z-index: 2;
+}
+
 .beef {
   position: absolute;
-  width: 91px;
-  height: 116px;
-  margin-left: 158px;
-  margin-bottom: 209px;
+  width: 93px;
+  height: 121px;
+  margin-top: -339px;
+  margin-left: 35px;
+  transition: all 0.1s ease-in-out;
+  z-index: 2;
+}
+.beef:hover + .beef-glow, .beef:hover, .beef:focus {
+  transform: scale(1.2);
+  visibility: visible;
+}
+
+.beef-glow {
+  position: absolute;
+  width: 600px;
+  height: 561px;
+  z-index: 1;
+  pointer-events: none;
+  margin-left: -198px;
+  margin-top: -552px;
+  visibility: hidden;
+}
+
+.leotard-anchor {
+  position: absolute;
+  z-index: 2;
 }
 
 .leotard-s {
   position: absolute;
-  width: 96px;
-  height: 116px;
-  margin-left: -10px;
-  margin-bottom: 122px;
+  width: 87px;
+  height: 115px;
+  margin-top: -239px;
+  margin-left: -48px;
+  transition: all 0.1s ease-in-out;
+  z-index: 3;
+}
+.leotard-s:hover + .leotard-glow, .leotard-s:hover, .leotard-s:focus {
+  transform: scale(1.1);
+  visibility: visible;
+}
+
+.leotard-glow {
+  position: absolute;
+  width: 600px;
+  height: 561px;
+  z-index: 1;
+  pointer-events: none;
+  margin-left: -292px;
+  margin-top: -559px;
+  visibility: hidden;
 }/*# sourceMappingURL=styles.css.map */
