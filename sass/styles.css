@@ -225,14 +225,23 @@ body {
   background-color: red;
 }
 
-body {
+.landing-page {
   background-color: black;
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .renpl {
@@ -255,7 +264,7 @@ body {
   margin-left: -29px;
   transition: all 0.1s ease-in-out;
 }
-.third-eye:hover + .third-eye-glow, .third-eye:hover, .third-eye:focus {
+.third-eye:hover + .third-eye-glow, .third-eye:active + .third-eye-glow, .third-eye:focus + .third-eye-glow, .third-eye:active, .third-eye:hover, .third-eye:focus {
   transform: scale(1.5);
   visibility: visible;
 }
@@ -286,7 +295,7 @@ body {
   transition: all 0.1s ease-in-out;
   z-index: 2;
 }
-.headphones:hover + .headphone-glow, .headphones:hover, .headphones:focus {
+.headphones:hover + .headphone-glow, .headphones:active + .headphone-glow, .headphones:focus + .headphone-glow, .headphones:active, .headphones:hover, .headphones:focus {
   transform: scale(1.1);
   visibility: visible;
 }
@@ -316,8 +325,8 @@ body {
   transition: all 0.1s ease-in-out;
   z-index: 2;
 }
-.beef:hover + .beef-glow, .beef:hover, .beef:focus {
-  transform: scale(1.2);
+.beef:hover + .beef-glow, .beef:active + .beef-glow, .beef:focus + .beef-glow, .beef:active, .beef:hover, .beef:focus {
+  transform: scale(1.1);
   visibility: visible;
 }
 
@@ -339,25 +348,25 @@ body {
 
 .leotard-s {
   position: absolute;
-  width: 87px;
-  height: 115px;
-  margin-top: -239px;
-  margin-left: -48px;
+  width: 74px;
+  height: 106px;
+  margin-top: -233px;
+  margin-left: -41px;
   transition: all 0.1s ease-in-out;
   z-index: 3;
 }
-.leotard-s:hover + .leotard-glow, .leotard-s:hover, .leotard-s:focus {
-  transform: scale(1.1);
+.leotard-s:hover + .leotard-glow, .leotard-s:active + .leotard-glow, .leotard-s:focus + .leotard-glow, .leotard-s:active, .leotard-s:hover, .leotard-s:focus {
+  transform: scale(1.2);
   visibility: visible;
 }
 
 .leotard-glow {
   position: absolute;
-  width: 600px;
-  height: 561px;
+  width: 653px;
+  height: 600px;
   z-index: 1;
   pointer-events: none;
-  margin-left: -292px;
-  margin-top: -559px;
+  margin-left: -318px;
+  margin-top: -605px;
   visibility: hidden;
 }/*# sourceMappingURL=styles.css.map */

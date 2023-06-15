@@ -1,11 +1,20 @@
-body {
+.landing-page {
     background-color: black;
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.stars {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 // Body & Head
@@ -21,6 +30,7 @@ body {
     position: absolute;
     z-index: 3;
 }
+
 .third-eye {
     position: absolute;
     width: 60px;
@@ -29,11 +39,15 @@ body {
     margin-left: -29px;
     transition: all 0.1s ease-in-out;
     &:hover + .third-eye-glow,
+    &:active + .third-eye-glow,
+    &:focus + .third-eye-glow,
+    &:active,
     &:hover,
     &:focus {
         transform: scale(1.5);
         visibility: visible;
     }
+    
     
 }
 
@@ -64,6 +78,9 @@ body {
     transition: all 0.1s ease-in-out;
     z-index: 2;
     &:hover + .headphone-glow,
+    &:active + .headphone-glow,
+    &:focus + .headphone-glow,
+    &:active,
     &:hover,
     &:focus {
         transform: scale(1.1);
@@ -97,9 +114,12 @@ body {
     transition: all 0.1s ease-in-out;
     z-index: 2;
     &:hover + .beef-glow,
+    &:active + .beef-glow,
+    &:focus + .beef-glow,
+    &:active,
     &:hover,
     &:focus {
-        transform: scale(1.2);
+        transform: scale(1.1);
         visibility: visible;
     }
 }
@@ -123,28 +143,31 @@ body {
 
 .leotard-s {
     position: absolute;
-    width: 87px;
-    height: 115px;
-    margin-top: -239px;
-    margin-left: -48px;
+    width: 74px;
+    height: 106px;
+    margin-top: -233px;
+    margin-left: -41px;
     transition: all 0.1s ease-in-out;
     z-index: 3;
     &:hover + .leotard-glow,
+    &:active + .leotard-glow,
+    &:focus + .leotard-glow,
+    &:active,
     &:hover,
     &:focus {
-        transform: scale(1.1);
+        transform: scale(1.2);
         visibility: visible;
     }
 }
 
 .leotard-glow {
     position: absolute;
-    width: 600px;
-    height: 561px;
+    width: 653px;
+    height: 600px;
     z-index: 1;
     pointer-events: none;
-    margin-left: -292px;
-    margin-top: -559px;
+    margin-left: -318px;
+    margin-top: -605px;
     visibility: hidden;
 }
 
