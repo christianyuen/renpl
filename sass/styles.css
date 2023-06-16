@@ -227,6 +227,9 @@ body {
 
 body {
   background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .landing-page {
@@ -242,6 +245,8 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .renpl {
