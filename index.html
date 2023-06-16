@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./sass/styles.css">
     <title>Renpl</title>
 </head>
-<body>
+<body class="landing-page">
 
-    <div class="landing-page">
+    <div class="wrapper">
+        
+        <!-- Navigation -->
+        <section class="p-menu1">
+            <nav id="navbar" class="navigation" role="navigation">
+                <input id="toggle1" type="checkbox" />
+                <label class="hamburger1" for="toggle1">
+                    <div class="top"></div>
+                    <div class="meat"></div>
+                    <div class="bottom"></div>
+                </label>
+            
+                <nav class="menu1" id="menu1-index">
+                    <a class="link1" href="./skills.html">PORTFOLIO</a>
+                    <a class="link1" href="./contact.html">THE D. WORD</a>
+                    <a class="link1" href="./about-me.html">BEEF WITH GOD</a>
+                    <a class="link1" href="./skills.html">SECRETARY OF STATE</a>
+                </nav>
+            </nav>
+        </section>
+
         <!-- Background -->
         <video class="stars" playsinline autoplay muted loop id="video-background">
             <source src="./assets/stars-3.mp4" type="video/mp4">
@@ -41,7 +64,7 @@
             <img class="leotard-s" src="./assets/leotard-s.png" alt="State of Union">
             <img src="./assets/leotard-glow.png" alt="leotard glow" class="leotard-glow">    
         </a>
-    </div>
+    </div><!--Wrapper -->
 
 
 </body>
