@@ -45,17 +45,20 @@ a {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     margin-top: 8px;
+    transition: all ease-in-out 0.3s;
 }
 
 #toggle1:checked + .hamburger1 .meat {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     margin-top: -5px;
+    transition: all ease-in-out 0.3s;
 }
 
 #toggle1:checked + .hamburger1 .bottom {
     -webkit-transform: scale(0);
     transform: scale(0);
+    transition: all ease-in-out 0.3s;
 }
 
 #toggle1:checked ~ .menu1 {
@@ -76,7 +79,7 @@ a {
     overflow: hidden;
     transition: height 0.4s ease;
     z-index: 20;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
     flex-direction: column;
     opacity: 0.8;
 }
