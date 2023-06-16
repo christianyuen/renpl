@@ -231,7 +231,7 @@ body {
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: end;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -248,7 +248,7 @@ body {
   position: absolute;
   width: 395px;
   height: 700px;
-  margin: -90px;
+  margin-bottom: -90px;
 }
 
 .third-eye-anchor {
