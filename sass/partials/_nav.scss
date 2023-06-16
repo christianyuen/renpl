@@ -45,20 +45,20 @@ a {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     margin-top: 8px;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
 }
 
 #toggle1:checked + .hamburger1 .meat {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     margin-top: -5px;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
 }
 
 #toggle1:checked + .hamburger1 .bottom {
     -webkit-transform: scale(0);
     transform: scale(0);
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.1s;
 }
 
 #toggle1:checked ~ .menu1 {

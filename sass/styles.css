@@ -271,18 +271,18 @@ a {
 #toggle1:checked + .hamburger1 .top {
   transform: rotate(-45deg);
   margin-top: 8px;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
 }
 
 #toggle1:checked + .hamburger1 .meat {
   transform: rotate(45deg);
   margin-top: -5px;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
 }
 
 #toggle1:checked + .hamburger1 .bottom {
   transform: scale(0);
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
 }
 
 #toggle1:checked ~ .menu1 {
