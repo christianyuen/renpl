@@ -53,14 +53,14 @@
 
 .third-eye-glow {
     position: absolute;
-    width: 40px;
-    height: 44px;
+    width: 500px;
+    height: 500px;
     z-index: 4;
     margin-bottom: -506px;
     pointer-events: none;
     visibility: hidden;
-    margin-left: -18px;
-    margin-top: -550px;
+    margin-left: -245px;
+    margin-top: -591px;
 }
 
 // Headphones
@@ -143,10 +143,10 @@
 
 .leotard-s {
     position: absolute;
-    width: 74px;
-    height: 106px;
-    margin-top: -233px;
-    margin-left: -41px;
+    width: 67px;
+    height: 51px;
+    margin-top: -209px;
+    margin-left: -39px;
     transition: all 0.1s ease-in-out;
     z-index: 3;
     &:hover + .leotard-glow,
@@ -162,12 +162,82 @@
 
 .leotard-glow {
     position: absolute;
-    width: 653px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     z-index: 1;
     pointer-events: none;
-    margin-left: -318px;
-    margin-top: -605px;
+    margin-left: -343px;
+    margin-top: -663px;
     visibility: hidden;
 }
 
+// Media Queries
+
+@media (max-width: 480px) {
+
+    // Body & Head
+    .renpl {
+        width: 345px;
+        height: 635px;
+    }
+
+    // Headphones
+    .headphones {
+        width: 164px;
+        height: 160px;
+        margin-top: -513px;
+        margin-left: -82px;
+    }
+    
+    .headphone-glow {
+        width: 510px;
+        height: 472px;
+        margin-left: -241px;
+        margin-top: -656px;
+    }
+
+    // Third-Eye
+    .third-eye {
+        width: 60px;
+        height: 60px;
+        margin-top: -498px;
+        margin-left: -29px;
+    }
+
+    .third-eye-glow {
+        width: 450px;
+        height: 450px;
+        margin-left: -220px;
+        margin-top: -523px;
+    }
+
+    // Beef
+    .beef {
+        width: 76px;
+        height: 105px;
+        margin-top: -292px;
+        margin-left: 33px;
+    }
+
+    .beef-glow {
+        width: 600px;
+        height: 561px;
+        margin-left: -207px;
+        margin-top: -516px;
+    }
+
+    // Leotard
+    .leotard-s {
+        width: 58px;
+        height: 46px;
+        margin-top: -181px;
+        margin-left: -34px;
+    }
+
+    .leotard-glow {
+        width: 700px;
+        height: 700px;
+        margin-left: -343px;
+        margin-top: -642px;
+    }
+}
